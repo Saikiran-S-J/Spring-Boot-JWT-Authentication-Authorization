@@ -18,8 +18,14 @@ This project demonstrates how to implement **Authentication &amp; Authorization*
 - Maven
 
 🧪 API Endpoints
-Method	Endpoint	Description
-POST	/api/auth/register	Register a new user
-POST	/api/auth/login	Login and get JWT token
-GET	/api/users/me	Access protected endpoint (Authenticated users only)
-GET	/api/users/admin	Access Admin endpoint (Admins only)
+---------------------------------------------------------------------------------------------------------
+Method      |      	Endpoint       	       |      Description
+---------------------------------------------------------------------------------------------------------
+POST	      |      /api/auth/register	     |      Register a new user
+---------------------------------------------------------------------------------------------------------
+POST	      |      /api/auth/login	       |      Login and get JWT token
+---------------------------------------------------------------------------------------------------------
+GET	        |      /api/users/me	         |       Access protected endpoint (Authenticated users only)
+---------------------------------------------------------------------------------------------------------
+GET         |     	/api/users/admin	     |      Access Admin endpoint (Admins only)
+---------------------------------------------------------------------------------------------------------
